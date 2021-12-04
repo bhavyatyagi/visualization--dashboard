@@ -9,3 +9,6 @@ To run the app:
         pip install missingLibrary
         eg.: pip install dash
     6. run the program again
+
+This project can be downloaded or forked from:
+    https://github.com/bhavyatyagi/data-visualisation-dashboard.git
