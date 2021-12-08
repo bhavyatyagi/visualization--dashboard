@@ -115,7 +115,7 @@ app.layout = html.Div(
             className="conclusion",
         ),
         # this paragraph is for the footer
-        html.P(children="Made with 💖 by Bhavya Tyagi, 102097014, 2CSE2",
+        html.P(children="Made with 💖 by Bhavya Tyagi, 102097014, 3CSE2",
                className="footer"),
     ]
 )
