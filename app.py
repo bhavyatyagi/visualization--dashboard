@@ -177,7 +177,7 @@ def update_charts(gender):
     }
     # building figures & layouts
     pie_chart_figure = px.pie(filtered_data, values=count,
-                              names=names, title='Marital Status Distribution')
+                              names=names, title='Marital Status Distribution', color_discrete_sequence=px.colors.qualitative.Antique)
     scatter_chart_figure = px.scatter(filtered_data, x="Cost_Of_Vehicle", y="Age",
                                       title="Cost of Vehicle vs Age", color="Gender_Desc", color_discrete_sequence=px.colors.qualitative.Antique)
     # return figures
