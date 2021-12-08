@@ -7,6 +7,10 @@ import plotly.express as px
 # reading data
 data = pd.read_csv("LoanPricing.csv")
 
+# for pie chart
+count = data['Marital_Status_Desc'].value_counts()
+names = data['Marital_Status_Desc'].unique()
+
 # to make dashboard look good thru CSS
 external_stylesheets = [
     {
@@ -66,9 +70,16 @@ app.layout = html.Div(
         # this div is for the output i.e. the graphs
         html.Div(
             children=[
+
                 html.Div(
                     children=dcc.Graph(
                         id="loan_term", config={"displayModeBar": False},
+                    ),
+                    className="card",
+                ),
+                html.Div(
+                    children=dcc.Graph(
+                        id="pie_chart", config={"displayModeBar": False},
                     ),
                     className="card",
                 ),
@@ -114,7 +125,7 @@ app.layout = html.Div(
 
 @app.callback(
     [Output("scatter_chart", "figure"), Output(
-        "loan_term", "figure"), Output("loan_term_2", "figure")],
+        "loan_term", "figure"), Output("loan_term_2", "figure"), Output("pie_chart", "figure")],
     [
         # Input taken thru above defined div and given special id gender-filter and handled
         Input("gender-filter", "value"),
@@ -165,10 +176,12 @@ def update_charts(gender):
                    },
     }
     # building figures & layouts
+    pie_chart_figure = px.pie(filtered_data, values=count,
+                              names=names, title='Marital Status Distribution')
     scatter_chart_figure = px.scatter(filtered_data, x="Cost_Of_Vehicle", y="Age",
                                       title="Cost of Vehicle vs Age", color="Gender_Desc", color_discrete_sequence=px.colors.qualitative.Antique)
     # return figures
-    return scatter_chart_figure, loan_term_figure, loan_term_2_figure
+    return scatter_chart_figure, loan_term_figure, loan_term_2_figure, pie_chart_figure
 
 
 # this is us running the server at defualt port 8000 trhu localhost
