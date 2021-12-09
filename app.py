@@ -1,7 +1,8 @@
 # required libraries
-from dash import *  # Used dash as it comprises of power of flask for running the server as well as power of plotly and react for data visualisation
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
 import pandas as pd
-import numpy as np
 import plotly.express as px
 
 # reading data
