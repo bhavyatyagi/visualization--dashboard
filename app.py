@@ -1,5 +1,7 @@
 # required libraries
-from dash import *
+from dash import Output
+from dash import Input
+import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
