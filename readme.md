@@ -1,3 +1,6 @@
+## Update:
+### The app is now deployed at https://bhavya-dashboard.herokuapp.com/ 
+
 ## To run the app:
     1. Open the command prompt
     2. Go to the directory where the program is stored
