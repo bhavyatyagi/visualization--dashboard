@@ -24,6 +24,7 @@ external_stylesheets = [
 
 # initialising app
 app = dash.Dash(__name__)
+server = app.server
 app.title = 'Data Visualisation: Dashboard'
 # in this we are basically using html div & paragraph tags to create the layout of the app
 app.layout = html.Div(
