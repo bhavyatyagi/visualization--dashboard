@@ -30,10 +30,10 @@ app.title = 'Data Visualisation: Dashboard'
 app.layout = html.Div(
     children=[
         # html paragraph tag
-        html.Pre(children="Data Science Lab Evaluation, 2021-22ODDSEM             by Bhavya Tyagi, 102097014, 3CSE2",
-                 className="header-text"),
-        html.P(children=" Submitted to:- Dr. Geeta Kasana, CSED, TIET,Patiala",
-               className="header-text-right"),
+        # html.Pre(children="Data Science Lab Evaluation, 2021-22ODDSEM             by Bhavya Tyagi, 102097014, 3CSE2",
+        #          className="header-text"),
+        # html.P(children=" Submitted to:- Dr. Geeta Kasana, CSED, TIET,Patiala",
+        #        className="header-text-right"),
         # html div tag
         # This div is for the header
         html.Div(
@@ -118,7 +118,7 @@ app.layout = html.Div(
             className="conclusion",
         ),
         # this paragraph is for the footer
-        html.P(children="Made with 💖 by Bhavya Tyagi, 102097014, 3CSE2",
+        html.P(children="Made with 💖 by Bhavya Tyagi",
                className="footer"),
     ]
 )
