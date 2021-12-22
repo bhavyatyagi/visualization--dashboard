@@ -3,7 +3,7 @@
 
 Proposal Link(submitted on GitHub Externship Platform) : [proposal](https://drive.google.com/file/d/1Lhb56VLNneH9P7706kt4-CUQgLoFEDNl/view?usp=sharing)
 
-Video Link(Code-Walkthrough) : [video]()
+Video Link(Code-Walkthrough) : [video](https://drive.google.com/file/d/1r2bJ8VLNAy3m7Oy1P_s2MsM5FZ0RQmu1/view?usp=sharing)
 
 GitHub Profile Link : [bhavyatyagi](https://github.com/bhavyatyagi)
 
