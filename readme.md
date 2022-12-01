@@ -1,16 +1,6 @@
 ## Introduction
-### This is a mini project build using Python, Dash and Plotly as a proposal submission to TigerGraph Open-Source Dash/Plotly Visualization SDK project. Hope you guys like it :).
-
-Proposal Link(submitted on GitHub Externship Platform) : [proposal](https://drive.google.com/file/d/1Lhb56VLNneH9P7706kt4-CUQgLoFEDNl/view?usp=sharing)
-
-Video Link(Code-Walkthrough) : [video](https://drive.google.com/file/d/1r2bJ8VLNAy3m7Oy1P_s2MsM5FZ0RQmu1/view?usp=sharing)
-
-GitHub Profile Link : [bhavyatyagi](https://github.com/bhavyatyagi)
-
-CV/Resume Link : [resume](https://drive.google.com/file/d/1YCBYQ2fpcnQf0quSKOv4dGZiFSss93nN/view?usp=sharing)
-
-## Update:
 ### The app is now deployed at https://bhavya-dashboard.herokuapp.com/ 
+This project is developed using Python, Dash, and Plotly. This gives Vehicle Loan Analytics using the dataset LoanPricing.csv available in this repository. The gender option triggers the callback to serve visualization in accordance with the selected option. I hope you guys like it :).
 
 ## To run the app:
 1. Open the command prompt/terminal.
@@ -31,10 +21,21 @@ CV/Resume Link : [resume](https://drive.google.com/file/d/1YCBYQ2fpcnQf0quSKOv4d
 
         pip install dash pandas plotly
     Note: pip3 instead of pip if in case shows command not found.
-7. Run the program again
+7. Run the program again via step 4.
     
 ## Screenshots
 ![Data Visualisation Dashboard](https://i.ibb.co/cknwHJC/ss.png)
 
 ## This project can be downloaded or forked from:
     https://github.com/bhavyatyagi/visualization-dashboard.git
+    
+## Info
+### This Project was proposed to TigerGraph as the proposal for the GitHub Externship Winter Cohort of 2022.
+
+Proposal Link(submitted on GitHub Externship Platform) : [proposal](https://drive.google.com/file/d/1Lhb56VLNneH9P7706kt4-CUQgLoFEDNl/view?usp=sharing)
+
+Video Link(Code-Walkthrough) : [video](https://drive.google.com/file/d/1r2bJ8VLNAy3m7Oy1P_s2MsM5FZ0RQmu1/view?usp=sharing)
+
+GitHub Profile Link : [bhavyatyagi](https://github.com/bhavyatyagi)
+
+CV/Resume Link : [resume(old)](https://drive.google.com/file/d/1YCBYQ2fpcnQf0quSKOv4dGZiFSss93nN/view?usp=sharing)
