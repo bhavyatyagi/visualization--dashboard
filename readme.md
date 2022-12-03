@@ -1,5 +1,5 @@
-## Introduction
-### The app is now deployed at https://bhavya-dashboard.herokuapp.com/ 
+## Introduction [PLEASE NOTE CHANGE IN DEPLOYMENT URL]
+### The app is now deployed at http://bhavya-dashboard.centralindia.cloudapp.azure.com/
 This project is developed using Python, Dash, and Plotly. This gives Vehicle Loan Analytics using the dataset LoanPricing.csv available in this repository. The gender option triggers the callback to serve visualization in accordance with the selected option. I hope you guys like it :).
 
 ## To run the app:
