@@ -1,20 +1,25 @@
 
-## Title: Vehicle Loan Analytics | Visualization Dashboard
+## Title: Vehicle Loan Analytics | Visualization Dashboard 📈
 
-## 1. Methodology
+## 1. Methodology 🔣
+![Methodology](https://i.ibb.co/RggGMPQ/Flowcharts-1.png)
 
-## 2. Description
-This project is developed using Python, Dash, and Plotly. This gives Vehicle Loan Analytics using the dataset LoanPricing.csv available in this repository. The gender option triggers the callback to serve visualization in accordance with the selected option. I hope you guys like it :).
+## 2. Description 📚
+- This project is developed using Python, Dash, and Plotly. This gives Vehicle Loan Analytics using the dataset LoanPricing.csv available in this repository. The gender option triggers the callback to serve visualization in accordance with the selected option. I hope you guys like it :).
+- The dataset contains 34 Features, 18969 tuples for Vehicle Loan Analytics.
 
-## 3. Input / Output
+## 3. Input / Output 💻
+The input to the application is a dropdown for gender, according to the dataset this field is generated. Upon selection the callback gets triggered and updates the Dashboard in real time.
+- Dropdown: Selection of Gender. Example: Female, Male.
+- Output: We get 4 different visualizations on the basis of selected dropdown field of the dataset.
 
-## 4. Live Link
+## 4. Live Link 🔗
 ### The app is now deployed at http://bhavya-dashboard.centralindia.cloudapp.azure.com/
 
-## 5. Screenshots
+## 5. Screenshots 🖥️
 ![Data Visualisation Dashboard](https://i.ibb.co/cknwHJC/ss.png)
 
-## 6. How to run the app:
+## 6. How to run the app: 👨🏻‍💻
 1. Open the command prompt/terminal.
 2. Clone the repo using
 
