@@ -13,7 +13,7 @@ The input to the application is a dropdown for gender, according to the dataset 
 - Dropdown: Selection of Gender. Example: Female, Male.
 - Output: We get 4 different visualizations on the basis of selected dropdown field of the dataset.
 
-## 4. Live Link 🔗
+## 4. Live Link [CURRENTLY DOWN] 🔗
 ### The app is now deployed at http://bhavya-dashboard.centralindia.cloudapp.azure.com/
 
 ## 5. Screenshots 🖥️
